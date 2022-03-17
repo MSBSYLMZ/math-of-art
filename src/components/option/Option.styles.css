@@ -1,0 +1,19 @@
+.option{
+    font-size: 25px;
+    border: 1px solid aqua;
+    width: 50px;
+    display: inline-block;
+    padding: 10px;
+    margin: 25px;
+    cursor: pointer;
+    user-select:none;
+}
+.option.active {
+    background-color: #383961;
+}
+.option.wrong{
+    background-color: #FA0000;
+}
+.option.right {
+    background-color: #2EFF12;
+}

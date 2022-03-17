@@ -1,0 +1,10 @@
+const GameActionTypes = {
+    SET_NEW_GAME: 'SET_NEW_GAME',
+    SET_GAME_OVER:'SET_GAME_OVER',
+    SET_SUCCESS : 'SET_SUCCESS',
+    SET_MESSAGE: 'SET_MESSAGE',
+    SET_MESSAGE_TYPE:'SET_MESSAGE_TYPE',
+    SET_SHOW_MESSAGE: 'SET_SHOW_MESSAGE'
+}
+
+export default GameActionTypes

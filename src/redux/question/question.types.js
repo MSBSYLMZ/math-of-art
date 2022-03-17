@@ -1,0 +1,7 @@
+const QuestionActionTypes = {
+    SET_ACTIVE_ANSWER:'SET_ACTIVE_ANSWER',
+    SET_CORRECT_ANSWER : 'SET_CORRECT_ANSWER',
+    SET_CORRECT_ANSWER_COUNT:'SET_CORRECT_ANSWER_COUNT',
+}
+
+export default QuestionActionTypes;

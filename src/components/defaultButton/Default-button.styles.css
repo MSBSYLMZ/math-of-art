@@ -1,0 +1,13 @@
+.default-button {
+    height: 50px;
+    width: max-content;
+    margin: 25px auto;
+    border-radius: 5px;
+    padding: 0 20px;
+    color: #00C8FF;
+    background-color: rebeccapurple;
+    border: 1px solid #00C8FF;
+    display: block;
+    font-size: 36px;
+    cursor: pointer;
+}

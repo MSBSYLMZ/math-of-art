@@ -1,0 +1,16 @@
+.question-section{
+    width: 45%;
+    margin: 10vh 25px 25px 25px;
+}
+.flex-container {
+    display: flex;
+    justify-content:  space-between;
+}
+.flex-container button{
+    margin: 25px 0 ;
+}
+.questions{
+    border: 3px solid aqua;
+    width: 100%;
+    color: #f7f7f7;
+}

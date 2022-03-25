@@ -4,10 +4,6 @@ import PuzzleActionTypes from "./puzzle.types";
 const INITIAL_STATE = {
     addedPiecesCount : 0,
     imageLink: '',
-    canvas:{
-        height:0,
-        width:0
-    },
     ctx:null,
     slotCount: 16
 }
@@ -28,11 +24,6 @@ const puzzleReducer = (state = INITIAL_STATE, action)=>{
             return {
                 ...state,
                 slotCount:action.payload
-            }
-        case PuzzleActionTypes.SET_CANVAS:
-            return {
-                ...state,
-                canvas:action.payload
             }
         case PuzzleActionTypes.SET_CTX:
             if(typeof action.payload === 'function'){

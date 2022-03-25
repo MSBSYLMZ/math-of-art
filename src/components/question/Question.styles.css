@@ -1,7 +1,33 @@
 .question-title{
-    font-size: 18px;
+    font-size: 36px;
+    color: #FF3F00;
+    margin: 10px;
 }
 .question{
     font-size: 48px;
     margin: 10px 0;
+    color: #FF3F00;
+}
+
+@media only screen and (max-width: 800px){
+    .question{
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    .question-title{
+        font-size: 24px;
+        color: #FF3F00;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 380px){
+
+    .question{
+        font-size: 24px;
+        margin: 5px 0;
+    }
+    .question-title{
+        font-size: 18px;
+        margin: 5px;
+    }
 }

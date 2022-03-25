@@ -10,14 +10,6 @@ export const setImageLink = (imageLink)=>({
     payload: imageLink
 })
 
-export const setCanvas=(canvas)=>({
-    type:PuzzleActionTypes.SET_CANVAS,
-    payload:{
-        height:canvas.current.height,
-        width:canvas.current.width
-    }
-})
-
 export const setCtx = (ctx) => ({
     type:PuzzleActionTypes.SET_CTX,
     payload:ctx

@@ -22,7 +22,8 @@ export const generateOptions = (answer)=>{
         }
         options.push(+result);
     }
-    return shuffleArray(options);
+    // return shuffleArray(options);
+    return options;
 }
 
 export const generateOption = (answer)=>{

@@ -1,4 +1,34 @@
 .puzzle{
-    margin-top: 5vh;
+    position: relative;
+    top: calc( (100% - 600px ) / 2);
+
+    height: max-content;
+    width: max-content;
+    transition: all .6s ease-in-out;
 }
-#puzzle-canvas{}
+@media only screen and (max-width: 1200px){
+    .puzzle{
+        top: calc( (100% - 500px ) / 2);
+    }
+}
+@media only screen and (max-width: 1000px){
+    .puzzle{
+        top: calc( (100% - 400px ) / 2);
+    }
+}
+@media only screen and (max-width: 800px){
+    .puzzle{
+        top:10px;
+        left:  calc( (100% - 300px ) / 2);
+    }
+}
+@media only screen and (max-width: 320px){
+    .puzzle{
+        left:  calc( (100% - 250px ) / 2);
+    }
+}
+@media only screen and (max-width: 250px){
+    .puzzle{
+        left:  calc( (100% - 200px ) / 2);
+    }
+}

@@ -14,7 +14,7 @@
     top: -100px;
     font-weight: 900;
     font-size: 72px;
-    color: #f7f7f7;
+    color: #E60965;
 }
 .timer-inner{
     position: absolute;
@@ -22,7 +22,7 @@
     left: 0;
     width:100%;
     height: 100%;
-    background-color: #2EFF12;
+    background-color: #1BF523;
 }
 
 @keyframes animateTimerBar{
@@ -30,13 +30,20 @@
         width:100%
     }
     50%{
-        background-color:#FFFF00 ;
+        background-color:#FFFA4D ;
     }
     75%{
-        background-color: #FA0000;
+        background-color: #FF3F00;
     }
     100%{
         width: 0%;
-        background-color: #FA0000;
+        background-color: #E60965;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .timer-count {
+        font-size: 36px;
+        top: -50px;
     }
 }

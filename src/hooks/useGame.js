@@ -5,14 +5,13 @@ import { setActiveAnswer, setCorrectAnswer, setCorrectAnswerCount } from "../red
 import { setGameOver, setNewGame, setSuccess, setMessage } from "../redux/game/game.actions";
 import { setShowMessage, setMessageType } from "../redux/game/game.actions";
 import { selectCurrentUser } from "../redux/user/user.selector";
-import { selectCanvas, selectCtx } from "../redux/puzzle/puzzle.selector";
+import { selectCtx } from "../redux/puzzle/puzzle.selector";
 import { clearCanvas } from "../services/canvas";
 
 
 function useGame(){
     const dispatch = useDispatch();
     const currentUser = useSelector(selectCurrentUser);
-    const canvas = useSelector(selectCanvas);
     const ctx = useSelector(selectCtx);
     const DEFAULT_SUCCESS_MESSAGE = ` Yeyyy! ${currentUser?.name ? currentUser.name : ''} you have done the mission successfully`
     const DEFAULT_GAMEOVER_MESSAGE = ` Ooopss! ${currentUser?.name ? currentUser.name : ''} you have done a little mistake.  Do you want to try again? `;
@@ -40,7 +39,7 @@ function useGame(){
             dispatch(setNewGame(true))
             dispatch(setCtx(cleanCtx))
         })
-    },[canvas])
+    },[ctx])
 
     const gameOver = useCallback((message= DEFAULT_GAMEOVER_MESSAGE)=>{
         batch(()=>{
@@ -50,7 +49,7 @@ function useGame(){
             dispatch(setMessage(message))
             dispatch(setMessageType('fail'))
         })
-    })
+    },[])
     const success = useCallback((message = DEFAULT_SUCCESS_MESSAGE)=>{
         batch(()=>{
             dispatch(setGameOver(true));
@@ -59,7 +58,7 @@ function useGame(){
             dispatch(setMessage(message))
             dispatch(setMessageType('success'))
         })
-    })
+    },[])
 
     
     return {

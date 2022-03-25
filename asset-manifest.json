@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/math-of-art/static/css/main.cad40cc1.css",
-    "main.js": "/math-of-art/static/js/main.2add210e.js",
-    "static/js/787.341a3616.chunk.js": "/math-of-art/static/js/787.341a3616.chunk.js",
-    "index.html": "/math-of-art/index.html",
-    "main.cad40cc1.css.map": "/math-of-art/static/css/main.cad40cc1.css.map",
-    "main.2add210e.js.map": "/math-of-art/static/js/main.2add210e.js.map",
-    "787.341a3616.chunk.js.map": "/math-of-art/static/js/787.341a3616.chunk.js.map"
+    "main.css": "/math-of-the-art/static/css/main.7a109568.css",
+    "main.js": "/math-of-the-art/static/js/main.99a03a9d.js",
+    "static/js/787.341a3616.chunk.js": "/math-of-the-art/static/js/787.341a3616.chunk.js",
+    "index.html": "/math-of-the-art/index.html",
+    "main.7a109568.css.map": "/math-of-the-art/static/css/main.7a109568.css.map",
+    "main.99a03a9d.js.map": "/math-of-the-art/static/js/main.99a03a9d.js.map",
+    "787.341a3616.chunk.js.map": "/math-of-the-art/static/js/787.341a3616.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad40cc1.css",
-    "static/js/main.2add210e.js"
+    "static/css/main.7a109568.css",
+    "static/js/main.99a03a9d.js"
   ]
 }

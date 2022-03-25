@@ -10,7 +10,19 @@
     margin: 25px 0 ;
 }
 .questions{
-    border: 3px solid aqua;
+    border: 3px solid #F2C9E1;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
     width: 100%;
     color: #f7f7f7;
+    -webkit-box-shadow: 10px 11px 40px -8px rgba(59,16,59,0.82);
+    -moz-box-shadow: 10px 11px 40px -8px rgba(59,16,59,0.82);
+    box-shadow: 10px 11px 40px -8px rgba(59,16,59,0.82);
+}
+@media only screen and (max-width: 800px){
+    .question-section{
+        width: 90%;
+        margin: 0 4%;
+        font-size: 13px;
+    }
 }

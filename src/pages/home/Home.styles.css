@@ -1,5 +1,5 @@
 .home{
-    background-color: rgba(242, 255, 0,.7);
+    background-color: rgba(224, 77, 176, 0.5);
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -16,7 +16,7 @@
     background-size: cover;
 }
 h1{
-    color: #00C8FF;
+    color: #5902EC;
     font-size: 72px;
 
 }
@@ -25,15 +25,15 @@ input{
     border-left: none;
     border-right: none;
     background-color: transparent;
-    color: #00C8FF;
-    color-scheme: #00C8FF;
-    border-color: #00C8FF;
+    color: #5902EC;
+    color-scheme: #5902EC;
+    border-color: #5902EC;
     outline: none;
     width: 50%;
     font-size: 48px;
     text-align: center;
 }
 ::placeholder{
-    color: #00C8FF;
+    color: #5902EC;
 }
 

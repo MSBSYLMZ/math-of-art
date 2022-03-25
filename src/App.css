@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat+Brush&display=swap');
+
+/*
+font-family: 'Bangers', cursive;  // For Title
+font-family: 'Caveat Brush', cursive; // For Regular
+*/
+*{
+  font-family: 'Caveat Brush', cursive; 
+}
+
 .App {
   text-align: center;
   min-height: 100vh;

@@ -79,7 +79,7 @@ const QuestionSection = () => {
     return (
        <div className='question-section'>
             <div className='flex-container'>
-                <DefaultButton onClick={handleRestart}>RESTART</DefaultButton>
+                <DefaultButton onClick={handleRestart} style={{margin:'18px 0'}}>RESTART</DefaultButton>
             </div>
             <Timer question={question}></Timer>
             <div className="questions">

@@ -10,6 +10,20 @@ export function shuffleArray(array) {
     return array;
 }
 
+export function removeElementFromArray ( array, index, deleteCount = 1 ){
+        let result = [...array];
+        result.splice( index, deleteCount );
+        return result;
+}
+
+export function createSlotsInfoObject (slotCount){
+        const result = {};
+        for(let i = 0; i < slotCount; i++){
+            result[i] = false;
+        }
+        return result;
+}
+
 export const operators = new Map();
 operators.set(0,{operator:'*',method:(a,b)=>a*b})
 operators.set(1,{operator:'/',method:(a,b)=>a/b})

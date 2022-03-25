@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/math-of-the-art/static/css/main.7a109568.css",
-    "main.js": "/math-of-the-art/static/js/main.99a03a9d.js",
+    "main.js": "/math-of-the-art/static/js/main.ec4429a8.js",
     "static/js/787.341a3616.chunk.js": "/math-of-the-art/static/js/787.341a3616.chunk.js",
     "index.html": "/math-of-the-art/index.html",
     "main.7a109568.css.map": "/math-of-the-art/static/css/main.7a109568.css.map",
-    "main.99a03a9d.js.map": "/math-of-the-art/static/js/main.99a03a9d.js.map",
+    "main.ec4429a8.js.map": "/math-of-the-art/static/js/main.ec4429a8.js.map",
     "787.341a3616.chunk.js.map": "/math-of-the-art/static/js/787.341a3616.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a109568.css",
-    "static/js/main.99a03a9d.js"
+    "static/js/main.ec4429a8.js"
   ]
 }

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/math-of-the-art/static/css/main.7a109568.css",
-    "main.js": "/math-of-the-art/static/js/main.a84526a9.js",
-    "static/js/787.341a3616.chunk.js": "/math-of-the-art/static/js/787.341a3616.chunk.js",
-    "index.html": "/math-of-the-art/index.html",
-    "main.7a109568.css.map": "/math-of-the-art/static/css/main.7a109568.css.map",
-    "main.a84526a9.js.map": "/math-of-the-art/static/js/main.a84526a9.js.map",
-    "787.341a3616.chunk.js.map": "/math-of-the-art/static/js/787.341a3616.chunk.js.map"
+    "main.css": "/math-of--art/static/css/main.7a109568.css",
+    "main.js": "/math-of--art/static/js/main.cb41b17b.js",
+    "static/js/787.341a3616.chunk.js": "/math-of--art/static/js/787.341a3616.chunk.js",
+    "index.html": "/math-of--art/index.html",
+    "main.7a109568.css.map": "/math-of--art/static/css/main.7a109568.css.map",
+    "main.cb41b17b.js.map": "/math-of--art/static/js/main.cb41b17b.js.map",
+    "787.341a3616.chunk.js.map": "/math-of--art/static/js/787.341a3616.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a109568.css",
-    "static/js/main.a84526a9.js"
+    "static/js/main.cb41b17b.js"
   ]
 }

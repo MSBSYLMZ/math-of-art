@@ -29,7 +29,7 @@ const QuestionSection = () => {
     const setAnswer = (answer)=>( dispatch(setCorrectAnswer(+answer)))
 
     const handleApply = ()=>{
-        if(activeAnswer!==''){
+        if(activeAnswer!=='' && !gameover){
             if(+activeAnswer===+correctAnswer){
                 dispatch(setCorrectAnswerCount(+correctAnswersCount+1))
                 dispatch(setActiveAnswer(""))
